@@ -1,215 +1,183 @@
 body {
-      color: #000;
-      font-size: 14px;
-      line-height: 1.4;
-      font-family: 'Open Sans', sans-serif;
-      background-color: #000;
-      background-size: cover;
-}
-
-*{margin:auto;}
-
-#wrapper{
-  width: 100%;
-  overflow: auto;
-  background: #000;
-
-
-}
-
-#header{
-
-  width: 100%;
-  height: 600px;
-  background: url("images/header_bg.jpg");
+  color: #000;
+  background-color: #000;
   background-size: cover;
-
+  font-size: 1rem;
+  font-family: "Baloo Bhaina 2", cursive;
+  line-height: 1.4;
 }
 
-#header h1 {
+* {
+  margin: auto;
+}
+
+#header {
+  background: url("images/beach.jpg");
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+}
+
+h1 {
+  color: rgb(252, 251, 248);
   font-weight: 900;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 24px;
-  color: white;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 2rem;
   margin-left: 320px;
-
 }
 
-#header p{
-
-	font-size: 24px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	margin-top: 150px;
-	font-weight: 600;
-  color:white;
+#header p {
+  color: rgb(17, 16, 12);
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-weight: 900;
+  margin-top: 300px;
 }
 
-#getit{
-
-	width: 160px;
-	height: 35px;
-	background: #f9e42e;
-	border-radius: 3px 3px 3px 3px;
-	margin-top: 110px;
+#getit {
+  background: #f9e42e;
+  border-radius: 3px 3px 3px 3px;
+  height: 35px;
+  margin-top: 110px;
+  width: 160px;
 }
 
-#getit a{
-
-	font-size: 15px;
-	font-weight: 800;
-	color: #033048;
-	margin-left: 40px;
-	float: left;
-	font-family: 'Open Sans', sans-serif;
+#getit a {
+  color: #1d92d1;
+  font-size: 1rem;
+  font-weight: 900;
+  float: left;
+  font-family: "Baloo Bhaina 2", cursive;
+  margin-left: 40px;
   margin-top: 8px;
-	text-decoration: none;
-
+  text-decoration: none;
 }
 
-#container{
-
-	width: 100%;
-	height: 500px;
-	background: #f0efef;
+#container {
+  background: #f0efef;
+  width: 100%;
+  height: 500px;
 }
 
-#container h1{
+#container h1 {
+  color: #033048;
   font-size: 25px;
   font-weight: 600;
   float: left;
-  color: #033048;
-  margin-top: 80px;
-  margin-left: 80px;
-
+  margin-top: 100px;
+  margin-left: 40px;
 }
 
-#container p{
-
-	margin-left: 80px;
-	font-size: 18px;
-	color: #606161;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
-
+#container p {
+  color: #606161;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Baloo Bhaina 2", cursive;
+  margin-left: 150px;
+  padding-top: 150px;
 }
 
-#container ul{
-
-	margin-left: 120px;
-	color: #606161;
-	font-size: 18px;
-	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+#container ul {
+  color: #606161;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Baloo Bhaina 2", cursive;
+  margin-left: 150px;
+  margin-top: 30px;
 }
 
-#section{
-  width: 100%;
-  height: 300px;
+#section {
   background: url("images/testimonial_bg.jpg");
   background-size: cover;
-
+  width: 100%;
+  height: 200px;
 }
 
-#sec1{
-
-	width: 400px;
-	height: 200px;
-	background: transparent;
-	margin-top: 90px;
-	float: left;
-	margin-left: 550px;
+#sec1 {
+  background: transparent;
+  float: center;
+  height: 200px;
+  margin: 0px;
+  margin-left: 440px;
+  padding-top: 40px;
+  width: 400px;
 }
 
-#sec1 p{
-
-	color: #f0efef;
-	float: center;
-	text-align: center;
-	font-size: 18px;
-	font-style: italic;
-	font-weight: 300;
-
-
+#sec1 p {
+  color: #f0efef;
+  float: center;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
 }
 
-#sec1 h1{
-
-	text-align: center;
-	color: white;
-	font-size: 18px;
-	font-weight: 600;
-
+#sec1 h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
 }
 
-#signup{
-
-	width: 100%;
-	height: 80px;
-	background: #f9e42e;
+#signup {
+  background: #f9e42e;
+  height: 80px;
+  width: 100%;
 }
 
-#sign{
-
-	width: 180px;
-	height: 40px;
-	background: #033048;
-	top: 25%;
-	border-radius: 3px 3px 3px 3px;
-	margin: 0 auto;
-	position: relative;
+#sign {
+  background: #033048;
+  border-radius: 3px 3px 3px 3px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  width: 180px;
 }
 
-#sign a{
-
-	text-decoration: none;
-	font-size: 14px;
-	color: #f0efef;
-	font-weight: 800;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
-	margin-left: 50px;
-	margin-top: 10px;
-
+#sign a {
+  color: #f0efef;
+  font-weight: 800;
+  font-family: "Baloo Bhaina 2", cursive;
+  float: left;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
-#footer{
-
-	width: 300px;
-	height: 200px;
-	background: transparent;
+#footer {
+  background: transparent;
+  height: 200px;
+  width: 300px;
 }
 
-#footer h1{
-
-	text-align: center;
-	top: 15%;
-	font-size: 24px;
-	font-weight: 800;
-	margin: 0 auto;
-	color: #f9e42e;
-			position: relative;
+#footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 15%;
 }
 
-#icon{
-
-	width: 95px;
-	height: 50px;
-	background: transparent;
-	margin-top: 30px;
-
+#icon {
+  background: transparent;
+  height: 50px;
+  margin-top: 30px;
+  width: 95px;
 }
 
-#icon img{
-
-	margin-left: 10px;
+#icon img {
+  margin-left: 10px;
 }
 
-#footer p{
-
-	color: white;
-	text-align: center;
-	margin-top: 30px;
-	font-size: 9px;
-	font-weight: 600;
+#footer p {
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  margin-top: 30px;
+  text-align: center;
 }
